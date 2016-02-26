@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browserify Random Strings Demo</title>
+  <style media="screen">
+    body {
+      font-family: 'Monaco', monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="text-align:center;">
+    <h2>Random Strings Demo</h2>
+
+    <select id="cbolen" name="">
+      <option value="48">48</option>
+      <option value="32" selected>32</option>
+      <option value="16">16</option>
+      <option value="8">8</option>
+    </select>
+
+    <select id="cbotype" name="">
+      <option value="alphanumeric" selected>alphanumeric</option>
+      <option value="alphabetic">alphabetic</option>
+      <option value="numeric">numeric</option>
+      <option value="hex">hex</option>
+    </select>
+
+    <p>
+      <button id="btnapp" type="button" name="button">
+        Generate
+      </button>
+    </p>
+
+    <pre id="txtlog"></pre>
+  </div>
+
+  <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
